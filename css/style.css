@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+
+/* Declare Variable */
+
+:root{
+  --dark-one: #333;
+  --dark-two: #7a7a7a;
+  --main-color: #35a0ce;
+  --ligth-one: #fff;
+  --light-two: #f9fafb;
+  --light-three: #f6f7fb;
+}
+
+/* General Styles */
+*, 
+*::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Poppins", san-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  width: 100%;
+}
+
+/* End General Styles */
+
+/* Header */
+
+header{
+  width: 100%;
+  background-color: var(--light-three);
+  overflow: hidden;
+}
+
+/* End Header */
